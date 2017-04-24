@@ -1,0 +1,1 @@
+export const GRAYLOG_ENDPOINT = process.env.GRAYLOG_ENDPOINT || "http://0.0.0.0/api/";

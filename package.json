@@ -1,0 +1,41 @@
+{
+  "name": "cloudwatch-to-graylog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xcaron/cloudwatch-to-graylog.git"
+  },
+  "author": "Xavier Caron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xcaron/cloudwatch-to-graylog/issues"
+  },
+  "homepage": "https://github.com/xcaron/cloudwatch-to-graylog#readme",
+  "devDependencies": {
+    "@types/node": "^7.0.13",
+    "child_process": "^1.0.2",
+    "debug": "^2.6.4",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-add-src": "^0.2.0",
+    "gulp-debug": "^3.1.0",
+    "gulp-size": "^2.1.0",
+    "gulp-typescript": "^3.1.6",
+    "gulp-util": "^3.0.8",
+    "gulp-yarn": "^0.1.1",
+    "gulp-zip": "^4.0.0",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.18.1",
+    "require-dir": "^0.3.1",
+    "typescript": "^2.2.2"
+  },
+  "dependencies": {
+    "bunyan": "^1.8.10",
+    "graylog2": "^0.1.3"
+  }
+}
